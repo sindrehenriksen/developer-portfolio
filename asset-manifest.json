@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.bb28dc19.css",
+    "main.css": "/developer-portfolio/static/css/main.5a25952f.css",
     "main.js": "/developer-portfolio/static/js/main.ef27dc9c.js",
     "static/css/64.bba8fa55.chunk.css": "/developer-portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.f1868982.chunk.js": "/developer-portfolio/static/js/64.f1868982.chunk.js",
@@ -15,13 +15,13 @@
     "static/media/airbnbLogo.png": "/developer-portfolio/static/media/airbnbLogo.e8497507db673acd3991.png",
     "static/media/facebookLogo.png": "/developer-portfolio/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
     "index.html": "/developer-portfolio/index.html",
-    "main.bb28dc19.css.map": "/developer-portfolio/static/css/main.bb28dc19.css.map",
+    "main.5a25952f.css.map": "/developer-portfolio/static/css/main.5a25952f.css.map",
     "main.ef27dc9c.js.map": "/developer-portfolio/static/js/main.ef27dc9c.js.map",
     "64.bba8fa55.chunk.css.map": "/developer-portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.f1868982.chunk.js.map": "/developer-portfolio/static/js/64.f1868982.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb28dc19.css",
+    "static/css/main.5a25952f.css",
     "static/js/main.ef27dc9c.js"
   ]
 }
