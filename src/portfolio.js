@@ -20,10 +20,12 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Sindre Henriksen",
+  title: "Hi, I'm Sindre!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A dedicated AI Cloud Service Developer. I have years of experience building Machinea" +
+    "Learning and Optimization services in Python and Java, mostly hosted on AWS. At work " +
+    "I'm known as the machine learning expert and Git wizard :)"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,14 +35,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
+  github: "https://github.com/sindrehenriksen",
+  linkedin: "https://www.linkedin.com/in/sindrehenriksen/",
+  gmail: "sindrehenriksen93@gmail.com",
+  // GitLab, Facebook, Medium, StackOverflow, Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
