@@ -169,32 +169,45 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Illustrations of some of the projects I've worked on. See my resume for " +
+  "work history and education.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      image: require("./assets/images/salesForecastingCropped.png"),
+      projectName: "Inventory Optimization",
+      projectDesc: "Retail Sales Forecasting and Inventory Optimization. With Visma Resolve.",
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Time Registration Suggestions",
+      projectDesc: "Automated time registration suggestions for consultants, " +
+      "construction workers and others. With Visma Resolve.",
+    },
+    {
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Calendar Event Categorization",
+      projectDesc: "Categorization of calendar events using LLMs and Unsupervised " +
+      "Learning. With Visma Resolve.",
+    },
+    {
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "School Optimization",
+      projectDesc: "Teacher allocation, timetable scheduling and room allocation. With " +
+      "Visma Resolve.",
+    },
+    {
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Statistical Seismic Data Analysis",
+      projectDesc: "Automated tracking of features in seismic data using classical and " +
+      "explainable statistical methods. Master's Thesis.",
+    },
+    {
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "DL Seismic Data Analysis",
+      projectDesc: "Automated tracking of features in seismic data using Deep Learning. " +
+      "With RagnaRock Geo.",
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };

@@ -2,8 +2,7 @@
 
 .card-image {
   max-width: 100%;
-  height: auto;
-  width: 250px;
+  max-height: 100%;
 }
 .card-title {
   color: $titleColor;
@@ -60,7 +59,7 @@
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1rem 1rem;
 }
 
