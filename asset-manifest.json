@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developer-portfolio/static/css/main.5a25952f.css",
-    "main.js": "/developer-portfolio/static/js/main.ef27dc9c.js",
+    "main.js": "/developer-portfolio/static/js/main.21bc9eed.js",
     "static/css/64.bba8fa55.chunk.css": "/developer-portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.f1868982.chunk.js": "/developer-portfolio/static/js/64.f1868982.chunk.js",
     "static/media/stanfordLogo.png": "/developer-portfolio/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
@@ -16,12 +16,12 @@
     "static/media/facebookLogo.png": "/developer-portfolio/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
     "index.html": "/developer-portfolio/index.html",
     "main.5a25952f.css.map": "/developer-portfolio/static/css/main.5a25952f.css.map",
-    "main.ef27dc9c.js.map": "/developer-portfolio/static/js/main.ef27dc9c.js.map",
+    "main.21bc9eed.js.map": "/developer-portfolio/static/js/main.21bc9eed.js.map",
     "64.bba8fa55.chunk.css.map": "/developer-portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.f1868982.chunk.js.map": "/developer-portfolio/static/js/64.f1868982.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a25952f.css",
-    "static/js/main.ef27dc9c.js"
+    "static/js/main.21bc9eed.js"
   ]
 }
