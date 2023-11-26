@@ -27,8 +27,8 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
 }
+
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
@@ -45,9 +45,10 @@
   line-height: 40px;
 }
 
-.greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+.greeting-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wave-emoji {
@@ -108,7 +109,7 @@
     display: block;
   }
   .greeting-image-div {
-    height: 256px;
+    max-height: 1200px;
   }
 }
 
