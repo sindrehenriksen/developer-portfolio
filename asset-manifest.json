@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.5a25952f.css",
-    "main.js": "/developer-portfolio/static/js/main.21bc9eed.js",
-    "static/css/64.bba8fa55.chunk.css": "/developer-portfolio/static/css/64.bba8fa55.chunk.css",
-    "static/js/64.f1868982.chunk.js": "/developer-portfolio/static/js/64.f1868982.chunk.js",
-    "static/media/stanfordLogo.png": "/developer-portfolio/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
-    "static/media/harvardLogo.png": "/developer-portfolio/static/media/harvardLogo.542dab89bfb35b7f5c0d.png",
-    "static/media/salesForecastingCropped.png": "/developer-portfolio/static/media/salesForecastingCropped.57e1e2db8965b91c9bd0.png",
-    "static/media/Montserrat-Regular.ttf": "/developer-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/Agustina.woff": "/developer-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/manOnTable.svg": "/developer-portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
-    "static/media/quoraLogo.png": "/developer-portfolio/static/media/quoraLogo.85eb29f4d52320c8ed99.png",
-    "static/media/developerActivity.svg": "/developer-portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/airbnbLogo.png": "/developer-portfolio/static/media/airbnbLogo.e8497507db673acd3991.png",
-    "static/media/facebookLogo.png": "/developer-portfolio/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
-    "index.html": "/developer-portfolio/index.html",
-    "main.5a25952f.css.map": "/developer-portfolio/static/css/main.5a25952f.css.map",
-    "main.21bc9eed.js.map": "/developer-portfolio/static/js/main.21bc9eed.js.map",
-    "64.bba8fa55.chunk.css.map": "/developer-portfolio/static/css/64.bba8fa55.chunk.css.map",
-    "64.f1868982.chunk.js.map": "/developer-portfolio/static/js/64.f1868982.chunk.js.map"
+    "main.css": "/static/css/main.2739326d.css",
+    "main.js": "/static/js/main.a3666357.js",
+    "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.f1868982.chunk.js": "/static/js/64.f1868982.chunk.js",
+    "static/media/stanfordLogo.png": "/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
+    "static/media/harvardLogo.png": "/static/media/harvardLogo.542dab89bfb35b7f5c0d.png",
+    "static/media/salesForecastingCropped.png": "/static/media/salesForecastingCropped.57e1e2db8965b91c9bd0.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/quoraLogo.png": "/static/media/quoraLogo.85eb29f4d52320c8ed99.png",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/airbnbLogo.png": "/static/media/airbnbLogo.e8497507db673acd3991.png",
+    "static/media/facebookLogo.png": "/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
+    "index.html": "/index.html",
+    "main.2739326d.css.map": "/static/css/main.2739326d.css.map",
+    "main.a3666357.js.map": "/static/js/main.a3666357.js.map",
+    "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
+    "64.f1868982.chunk.js.map": "/static/js/64.f1868982.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a25952f.css",
-    "static/js/main.21bc9eed.js"
+    "static/css/main.2739326d.css",
+    "static/js/main.a3666357.js"
   ]
 }
