@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Top.scss";
 
 export default function Top() {
@@ -17,13 +17,26 @@ export default function Top() {
       document.getElementById("topButton").style.visibility = "hidden";
     }
   }
-  window.onscroll = function () {
-    scrollFunction();
-  };
-  window.onload = function () {
-    scrollFunction();
-  }; //To make sure that this button is not visible at starting.
-  // When the user clicks on the button, scroll to the top of the document
+
+  useEffect(() => {
+    function onScroll() {
+      scrollFunction();
+    }
+
+    function onLoad() {
+      scrollFunction();
+    }
+
+    window.onscroll = onScroll;
+    window.onload = onLoad;
+
+    // Cleanup function
+    return () => {
+      window.onscroll = null;
+      window.onload = null;
+    };
+  }, []); // Empty dependency array means this effect runs once on mount and cleanup on unmount
+
   return (
     <button onClick={TopEvent} id="topButton" title="Go to top">
       <i className="fas fa-hand-point-up" aria-hidden="true"></i>

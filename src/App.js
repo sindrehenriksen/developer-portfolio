@@ -1,12 +1,18 @@
 import React from "react";
+//import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, HashRouter as Router, Routes } from "react-router-dom";
 import "./App.scss";
 import Main from "./containers/Main";
+import Resume from "./containers/resume/Resume";
 
 function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+    </Router>
   );
 }
 

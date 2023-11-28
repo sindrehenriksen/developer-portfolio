@@ -1,4 +1,5 @@
 import React, {useContext} from "react";
+import {Link} from 'react-router-dom';
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
@@ -41,11 +42,7 @@ export default function Greeting() {
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
-                  <Button
-                    text="See my resume"
-                    newTab={true}
-                    href={greeting.resumeLink}
-                  />
+                  <Button text="See my resume" to={greeting.resumeLink} />
                 )}
               </div>
             </div>

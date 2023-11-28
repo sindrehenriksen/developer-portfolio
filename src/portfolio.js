@@ -27,8 +27,7 @@ const greeting = {
     "Learning and Optimization services in Python and Java, mostly hosted on AWS. At work " +
     "I'm known as the machine learning expert and Git wizard :)"
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "/resume",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
