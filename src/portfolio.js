@@ -23,7 +23,7 @@ const greeting = {
   username: "Sindre Henriksen",
   title: "Hi, I'm Sindre!",
   subTitle: emoji(
-    "A dedicated AI Cloud Service Developer. I have years of experience building Machinea" +
+    "A dedicated AI Cloud Service Developer. I have years of experience building Machine " +
     "Learning and Optimization services in Python and Java, mostly hosted on AWS. At work " +
     "I'm known as the machine learning expert and Git wizard :)"
   ),
