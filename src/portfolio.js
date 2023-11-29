@@ -173,12 +173,13 @@ const bigProjects = {
   "work history and education.",
   projects: [
     {
-      image: require("./assets/images/salesForecastingCropped.png"),
+      image: require("./assets/images/projects/salesForecastingCropped.png"),
       projectName: "Inventory Optimization",
       projectDesc: "Retail Sales Forecasting and Inventory Optimization. With Visma Resolve.",
     },
     {
       //image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/projects/timeSuggest.png"),
       projectName: "Time Registration Suggestions",
       projectDesc: "Automated time registration suggestions for consultants, " +
       "construction workers and others. With Visma Resolve.",
