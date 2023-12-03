@@ -24,8 +24,8 @@ const greeting = {
   title: "Hi, I'm Sindre!",
   subTitle: emoji(
     "A dedicated AI Cloud Service Developer. I have years of experience building Machine " +
-    "Learning and Optimization services in Python and Java, mostly hosted on AWS. At work " +
-    "I'm known as the machine learning expert and Git wizard :)"
+    "Learning and Optimization services in Python and Java, typically hosted on AWS. At work " +
+    "I'm known as the Machine Learning expert and Git wizard :)"
   ),
   resumeLink: "/resume",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -45,15 +45,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "Some of the languages and tools I have experience with:",
+  title: "A few things about me",
+  //subTitle: "Some of the languages and tools I have experience with:",
   skills: [
     emoji(
-      "⚡ Develop and implement Optimization algorithms and Machine Learning models, and serverless cloud services to host them."
+      "⚡ I develop and implement Optimization algorithms and Machine Learning models, and serverless cloud services to host them."
     ),
-    emoji("⚡ Passionate about creating good dev workflows and pipelines, happy to teach and help others."),
+    emoji("⚡ I'm passionate about building good dev workflows and pipelines, happy to teach and help others."),
     emoji(
-      "⚡ Contribute to a good and social work environment. Need someone to organize a five course dinner for 30 people? No problem!"
+      "⚡ I contribute to a good and social work environment. Need someone to organize a five course dinner for 30 people? No problem!"
     )
   ],
 

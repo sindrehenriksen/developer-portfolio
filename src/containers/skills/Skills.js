@@ -43,7 +43,6 @@ export default function Skills() {
             >
               {skillsSection.subTitle}
             </p>
-            <SoftwareSkill />
             <div>
               {skillsSection.skills.map((skills, i) => {
                 return (
@@ -60,6 +59,7 @@ export default function Skills() {
                 );
               })}
             </div>
+            <SoftwareSkill />
           </div>
         </Fade>
       </div>
