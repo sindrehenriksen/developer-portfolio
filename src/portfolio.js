@@ -169,44 +169,55 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Illustrations of some of the projects I've worked on. See my resume for " +
-  "work history and education.",
+  subtitle: "Illustrations and a short description of some of the projects I've worked "
+  + "on. See my resume for work history and education.",
   projects: [
     {
       image: require("./assets/images/projects/salesForecastingCropped.png"),
       projectName: "Inventory Optimization",
-      projectDesc: "Retail Sales Forecasting and Inventory Optimization. With Visma Resolve.",
+      projectDesc: "Retail Sales Forecasting and Inventory Optimization. Visma Resolve.",
     },
     {
-      //image: require("./assets/images/nextuLogo.webp"),
       image: require("./assets/images/projects/timeSuggest.png"),
       projectName: "Time Registration Suggestions",
-      projectDesc: "Automated time registration suggestions for consultants, " +
-      "construction workers and others. With Visma Resolve.",
+      projectDesc: "Automated time registration suggestions project workers. Visma " +
+      "Resolve.",
     },
     {
-      //image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/projects/calEventCategorization.png"),
       projectName: "Calendar Event Categorization",
       projectDesc: "Categorization of calendar events using LLMs and Unsupervised " +
-      "Learning. With Visma Resolve.",
+      "Learning. Visma Resolve.",
     },
     {
-      //image: require("./assets/images/nextuLogo.webp"),
-      projectName: "School Optimization",
-      projectDesc: "Teacher allocation, timetable scheduling and room allocation. With " +
-      "Visma Resolve.",
+      image: require("./assets/images/projects/changeCompanyType.png"),
+      projectName: "Company Type Change",
+      projectDesc: "Analyze Sole Proprietorships' data to determine if they should " +
+      "convert to a Limited Company. Visma Resolve.",
     },
     {
-      //image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/projects/tournamentApp.png"),
+      projectName: "Tournament App",
+      projectDesc: "App to keep track of scores and standings for a company competition " +
+      "in Mario Kart and Fussball.",
+    },
+    //{
+    //  //image: require("./assets/images/nextuLogo.webp"),
+    //  projectName: "School Optimization",
+    //  projectDesc: "Teacher allocation, timetable scheduling and room allocation. Visma " +
+    //  "Resolve.",
+    //},
+    {
+      image: require("./assets/images/projects/mastersThesis.png"),
       projectName: "Statistical Seismic Data Analysis",
-      projectDesc: "Automated tracking of features in seismic data using classical and " +
-      "explainable statistical methods. Master's Thesis.",
+      projectDesc: "Automated tracking of features in seismic data using explainable " +
+      " statistical methods. Master's Thesis.",
     },
     {
-      //image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/projects/ragnarockGeo.png"),
       projectName: "DL Seismic Data Analysis",
       projectDesc: "Automated tracking of features in seismic data using Deep Learning. " +
-      "With RagnaRock Geo.",
+      "RagnaRock Geo.",
     },
   ],
   display: true // Set false to hide this section, defaults to true
