@@ -1,4 +1,5 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
+import { useLocation } from "react-router-dom";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
@@ -36,6 +37,18 @@ const Main = () => {
     setIsDark(!isDark);
   };
 
+  const location = useLocation();
+  const skillsRef = useRef(null);
+  const projectsRef = useRef(null);
+
+  useEffect(() => {
+    if (location.hash === "#skills" && skillsRef.current) {
+      skillsRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (location.hash === "#projects" && projectsRef.current) {
+      projectsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location]);
+
   return (
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
@@ -45,10 +58,14 @@ const Main = () => {
           <>
             <Header />
             <Greeting />
-            <Skills />
+            <div ref={skillsRef}>
+              <Skills />
+            </div>
             <Education />
             <WorkExperience />
-            <Projects />
+            <div ref={projectsRef}>
+              <Projects />
+            </div>
             <StartupProject />
             <Footer />
             <ScrollToTopButton />

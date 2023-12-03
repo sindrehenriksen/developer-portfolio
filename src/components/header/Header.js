@@ -1,4 +1,5 @@
 import React, {useContext} from "react";
+import { Link } from 'react-router-dom';
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -35,12 +36,12 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
+              <Link to={{ pathname: "/", hash: "skills" }}>Skills</Link>
             </li>
           )}
           {viewProjects && (
             <li>
-              <a href="#projects">Projects</a>
+              <Link to="/#projects">Projects</Link>
             </li>
           )}
           {viewExperience && (
