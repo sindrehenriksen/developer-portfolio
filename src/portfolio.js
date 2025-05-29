@@ -21,10 +21,10 @@ const illustration = {
 
 const greeting = {
   username: "Sindre Henriksen",
-  title: "Hi, I'm Sindre!",
+  title: "[DEPRECATED] Hi, I'm Sindre!",
   subTitle: emoji(
-    "I design and build products to optimize tasks and decision-making with AI." +
-    "This page was a pet project to showcase some of my work as a developer and is no longer being maintained or updated." +
+    "I design and build products to optimize tasks and decision-making with AI. " +
+    "This page was a pet project to showcase some of my work as a developer and is no longer being maintained or updated. " +
     "Check out my LinkedIn page for up-to-date info, and feel free to reach out to me there!"
   ),
   resumeLink: "/resume",
