@@ -21,11 +21,11 @@ const illustration = {
 
 const greeting = {
   username: "Sindre Henriksen",
-  title: "Hi, I'm Sindre!",
+  title: "[DEPRECATED] Hi, I'm Sindre!",
   subTitle: emoji(
-    "A dedicated AI Cloud Service Developer. I have years of experience building Machine " +
-    "Learning and Optimization services in Python and Java, typically hosted on AWS. At work " +
-    "I'm known as the Machine Learning expert and Git wizard :)"
+    "I design and build products to optimize tasks and decision-making with AI. " +
+    "This page was a pet project to showcase some of my work as a developer and is no longer being maintained or updated. " +
+    "Check out my LinkedIn page for up-to-date info, and feel free to reach out to me there!"
   ),
   resumeLink: "/resume",
   displayGreeting: true // Set false to hide this section, defaults to true
